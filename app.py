@@ -6,6 +6,7 @@ import glob
 import threading
 import time
 from io import BytesIO
+import numpy as np
 
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, Depends, Request, Response, Cookie
 from fastapi.responses import JSONResponse, FileResponse, HTMLResponse
